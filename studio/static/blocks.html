@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editor de bloques · Estudio de Juan</title>
+<meta name="description" content="Arma escenas de Juan con bloques: paisajes, animales, personas, objetos, gestos y diálogos.">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/blocks.css">
+<script type="importmap">{"imports":{"three":"/web/vendor/three.module.js","three/addons/":"/web/vendor/"}}</script>
+</head>
+<body>
+<header class="top">
+  <strong class="brand"><span class="mono">J.</span> Editor de bloques</strong>
+  <span class="sub">Arma la escena como un guion: cada bloque es una acción</span>
+  <a class="link" href="/">← Texto a video simple</a>
+</header>
+
+<main class="bl-layout">
+  <section class="bl-left" aria-label="Bloques disponibles">
+    <div class="card quick">
+      <h2>✨ Un texto → escena lista</h2>
+      <p class="note">Escribe un texto, o un diálogo con líneas «Nombre: texto». Juan decide paisaje, personajes, gestos, cámara y efectos; después lo editas con bloques.</p>
+      <textarea id="quick" rows="6" maxlength="3000" placeholder="¡Hola! Soy Juan. Hoy les cuento cómo ahorra mi perro Canelo en la playa…&#10;&#10;o un diálogo:&#10;Juan: ¿Cuánto cuesta la canasta?&#10;Doña Rosa: Solo una moneda."></textarea>
+      <div class="row">
+        <label class="grow">Paisaje <select id="quick-land"></select></label>
+        <label class="grow">Momento
+          <select id="quick-time"><option value="auto">Automático</option><option value="dia">Día</option><option value="tarde">Atardecer</option><option value="noche">Noche</option></select>
+        </label>
+      </div>
+      <label>Título en pantalla (opcional) <input id="quick-title" type="text" maxlength="80"></label>
+      <div class="row">
+        <label class="check"><input id="quick-comp" type="checkbox" checked> Añadir animales y personas mencionados</label>
+        <label class="check"><input id="quick-confetti" type="checkbox"> Confeti al final</label>
+      </div>
+      <button id="quick-go" class="btn dark">✨ Crear escena y prepararla</button>
+    </div>
+    <div class="card">
+      <h2>Añadir bloque</h2>
+      <div id="palette" class="palette"></div>
+      <label>Cargar un ejemplo
+        <select id="example"><option value="">Elegir…</option></select>
+      </label>
+      <div class="row">
+        <button id="export" class="btn">↓ Guardar proyecto</button>
+        <label class="btn file">Abrir proyecto<input id="import" type="file" accept=".json,application/json" hidden></label>
+        <button id="clear" class="btn">Vaciar</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Salida</h2>
+      <label>Nombre del video <input id="name" type="text" maxlength="40" value="escena de juan"></label>
+      <div class="row">
+        <label class="grow">Formato
+          <select id="format">
+            <option value="portrait">Vertical 720×1280</option>
+            <option value="landscape">Horizontal 1280×720</option>
+            <option value="square">Cuadrado 720×720</option>
+            <option value="p45">Retrato 4:5 720×900</option>
+          </select>
+        </label>
+        <label class="check"><input id="captions" type="checkbox" checked> Subtítulos</label>
+      </div>
+      <label>Calidad
+        <select id="quality"><option value="1" selected>Normal (720p)</option><option value="1.5">Alta (1080p) · pesa más</option></select>
+      </label>
+      <button id="prepare" class="btn dark">⚙ Preparar (genera las voces)</button>
+      <button id="preview" class="btn">▶ Ver sin grabar</button>
+      <button id="record" class="btn rec">● Grabar video</button>
+      <button id="stop" class="btn" hidden>■ Detener</button>
+      <progress id="progress" max="1" value="0" aria-label="Progreso"></progress>
+      <label>Ir al instante <input id="scrub" type="range" min="0" max="1" step="0.05" value="0" disabled></label>
+      <p id="duration" class="note"></p>
+      <p id="status" class="note" role="status" aria-live="polite">Cargando…</p>
+      <p class="note">Grabar es en tiempo real y la pestaña debe estar visible. Para muchos videos usa la cola rápida de la página simple.</p>
+    </div>
+  </section>
+
+  <section class="bl-stage" aria-label="Vista previa">
+    <div class="frame"><canvas id="out" aria-label="Vista previa de la escena. Arrastra a un personaje para colocarlo."></canvas></div>
+    <p class="note hint">Arrastra a un personaje sobre la escena para colocarlo (en el segundo 0).</p>
+    <div id="tlstrip" class="tlstrip" hidden aria-label="Línea de tiempo"></div>
+    <div id="result" hidden>
+      <video id="result-video" controls playsinline></video>
+      <a id="download" class="btn dark" download>↓ Descargar video</a>
+    </div>
+  </section>
+
+  <section class="bl-script" aria-label="Guion en bloques">
+    <h2>Tu guion</h2>
+    <p id="empty" class="note">Aún no hay bloques. Añade uno o carga un ejemplo.</p>
+    <ol id="blocks" class="blocks"></ol>
+  </section>
+</main>
+<script type="module" src="/blocks.js"></script>
+<script type="module" src="/production-editor.js"></script>
+</body>
+</html>

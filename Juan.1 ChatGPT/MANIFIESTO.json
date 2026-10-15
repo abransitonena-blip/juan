@@ -1,0 +1,436 @@
+{
+  "destino": "Mismo proyecto local, carpeta Juan.1 ChatGPT",
+  "tipo": "Prototipo 3D y animación digital con estética stop motion",
+  "archivos": [
+    {
+      "ruta": "01_saludo_madera.blend",
+      "bytes": 169691,
+      "sha256": "607800939cf1b6ec75906e252b73c9be6b81457c97e7a1a8c4238d4931478eda"
+    },
+    {
+      "ruta": "01_saludo_madera.glb",
+      "bytes": 672428,
+      "sha256": "b9a95cfe6625d0f7c82cd33bd4005cda5d5232d241c8e5a7d376cc2571087fe9"
+    },
+    {
+      "ruta": "01_saludo_madera.mp4",
+      "bytes": 21880,
+      "sha256": "05c9ff88d970409c26861138b135102afe875e868712e087bd7830fa4b015843"
+    },
+    {
+      "ruta": "01_saludo_madera.png",
+      "bytes": 356710,
+      "sha256": "04fe350c7ca353e52224cb3f4eb11867f5983dacd2d3b86fad0acf3286b244fc"
+    },
+    {
+      "ruta": "02_baile_atuendo.blend",
+      "bytes": 172163,
+      "sha256": "31f651033e39edb14fe61209f38832ebe2f003a7ad209816b063e4fd7c981e36"
+    },
+    {
+      "ruta": "02_baile_atuendo.glb",
+      "bytes": 781904,
+      "sha256": "9e910d80b46f796f8f5955b022471c89dc7e04818f4573ec750b3a766250d45c"
+    },
+    {
+      "ruta": "02_baile_atuendo.mp4",
+      "bytes": 54574,
+      "sha256": "ad61d84519bf1fad47c8d8d5c1d645e7bc7f57068e39396840ac35f4683796a1"
+    },
+    {
+      "ruta": "02_baile_atuendo.png",
+      "bytes": 367795,
+      "sha256": "c8e000498e97494733df9f47be780d493374ad2f1ebabbd508ef3f43655e6835"
+    },
+    {
+      "ruta": "README.md",
+      "bytes": 3372,
+      "sha256": "de1087e844e50fe905d6b129f7682047123fa18713e795c79f9159eb804674b4"
+    },
+    {
+      "ruta": "apply_pose.py",
+      "bytes": 601,
+      "sha256": "99f65e8b387189fe286bee8f492c777116a92595cf869ca54c9254511ebf6ee7"
+    },
+    {
+      "ruta": "build.py",
+      "bytes": 6577,
+      "sha256": "eb8f6f3f6a1f5b1beb9f43ac24c5bbe1f621f5f4298199d43896169491826411"
+    },
+    {
+      "ruta": "export_glb.py",
+      "bytes": 491,
+      "sha256": "23b5dd1fe5246e07b998666cdda7ab5012688b73fbcf5eb00183a69691f5b8ef"
+    },
+    {
+      "ruta": "export_poses.py",
+      "bytes": 507,
+      "sha256": "5abd28d07b816914a8df3239059faafb37be79720f625b8e470b92c37e18190d"
+    },
+    {
+      "ruta": "merge_glb.py",
+      "bytes": 677,
+      "sha256": "64fabfe49c405f893a322d36edb962dfa073eaff65f6a9a83e44cda6f6e8503a"
+    },
+    {
+      "ruta": "poses/brazos_abiertos.blend",
+      "bytes": 165402,
+      "sha256": "0532ddfecdeb1351d90a8ee55404c0616fd58d36ce3811770cbef59f2b5d5c0e"
+    },
+    {
+      "ruta": "poses/celebrar.blend",
+      "bytes": 161940,
+      "sha256": "188c09333b6f3af7846a3f89ae13abba7d937a29ff754c5309458d2da0090bac"
+    },
+    {
+      "ruta": "poses/inclinar.blend",
+      "bytes": 165396,
+      "sha256": "b11bcffd40baac9de84e3752174aa84496273bc3dbd7128a70b4e360c32f3171"
+    },
+    {
+      "ruta": "poses/paso.blend",
+      "bytes": 161934,
+      "sha256": "b30c66c92c0c9cee0b4b0ae6b1ad94dc58e93c7b3fb8fe1980c9a9d5d5ac073e"
+    },
+    {
+      "ruta": "poses/pensar.blend",
+      "bytes": 161944,
+      "sha256": "faaf699cf79707d2afa0f7961ec1cc58b851202646cd322e370681d765faa213"
+    },
+    {
+      "ruta": "poses/presentar.blend",
+      "bytes": 165401,
+      "sha256": "f022520cac1828a7f913b286e0cc6a367939251153b0b7b80edb22bd4e709967"
+    },
+    {
+      "ruta": "poses/reposo.blend",
+      "bytes": 161930,
+      "sha256": "cde4b3212c3526deab31637a8021a7e818f9cafd7d69c0f799c598638b9bbef2"
+    },
+    {
+      "ruta": "poses/saludo.blend",
+      "bytes": 161976,
+      "sha256": "44ffd0aaf588906a591fa0b2ae742a991c8ce87fdd7dfc9aaf5f95b8e4e355a1"
+    },
+    {
+      "ruta": "poses.json",
+      "bytes": 847,
+      "sha256": "9279a1dd83f764a22d4854942ef1cee66231c3d985a8c021d7ca5ecb6e95f276"
+    },
+    {
+      "ruta": "referencia.png",
+      "bytes": 2363575,
+      "sha256": "a938194f692aa33aa94e7e57e9794f99ddf3f3ee646bcf2b881f6d4a037f799e"
+    },
+    {
+      "ruta": "stop_motion/03_curiosidad.blend",
+      "bytes": 187996,
+      "sha256": "683913c5a77a1dab85f1e867285bb3466d833c2c71b82fe6a893fefb8f175446"
+    },
+    {
+      "ruta": "stop_motion/03_curiosidad.mp4",
+      "bytes": 58072,
+      "sha256": "b13d942b6746d033f831351c542ba16480000ea44e8ac85a779a24fd364f54b4"
+    },
+    {
+      "ruta": "stop_motion/03_curiosidad_secuencia.png",
+      "bytes": 713286,
+      "sha256": "6f5f9c9e3559c8d1902b231cedd254d9e8d10b0f663b213f4abb5f5a58f8c4cc"
+    },
+    {
+      "ruta": "stop_motion/03_curiosidad_xsheet.csv",
+      "bytes": 3538,
+      "sha256": "ddce3f8af5bcbf8d222eb2831d729bb02ec19e6b1a12772b609af6e2a93474a0"
+    },
+    {
+      "ruta": "stop_motion/04_bienvenida.blend",
+      "bytes": 187620,
+      "sha256": "d8723c96d8fe85079a6e10f33729446228c5030272739897fc87f275b48ad0ab"
+    },
+    {
+      "ruta": "stop_motion/04_bienvenida.mp4",
+      "bytes": 42484,
+      "sha256": "50a52a3453499e2142c37b5b7eb35ef41b76999e9a5f12e28ced716c2306c86c"
+    },
+    {
+      "ruta": "stop_motion/04_bienvenida_secuencia.png",
+      "bytes": 686994,
+      "sha256": "aca15e1e22588d26c0ae42f296555808f2dd23993b447e578083652354ad0208"
+    },
+    {
+      "ruta": "stop_motion/04_bienvenida_xsheet.csv",
+      "bytes": 4268,
+      "sha256": "cf392ec7e6500a671e0ad3e336c1c20c522ede6439d650aaecd9a7fc07312016"
+    },
+    {
+      "ruta": "stop_motion/DIRECCION_ARTISTICA.md",
+      "bytes": 11345,
+      "sha256": "43eabfbfcfa25d1a03645def467382b48f46f3bf19852a3729097bd3b82e1bfe"
+    },
+    {
+      "ruta": "stop_motion/README.md",
+      "bytes": 1323,
+      "sha256": "199840f2206660df14baf283ebc302a25bf400704b21ddb2e5eb57f6216ac392"
+    },
+    {
+      "ruta": "stop_motion/actuaciones.json",
+      "bytes": 6127,
+      "sha256": "0919bd1711507b0ae212ac364bb3ecda6c5c7f3ba0cce9e68b1872b144741ed5"
+    },
+    {
+      "ruta": "stop_motion/crear_pruebas.py",
+      "bytes": 5064,
+      "sha256": "a0639f6c17c64ee39213b5a329e3277101803e5dff603d629865c1de7467177c"
+    },
+    {
+      "ruta": "stop_motion/empaquetar.py",
+      "bytes": 2337,
+      "sha256": "445489b280ba2f44b639fe4f4595fae2b562955b91e4c6bd8a6da0af53b37b61"
+    },
+    {
+      "ruta": "stop_motion/verificar_escenas.py",
+      "bytes": 759,
+      "sha256": "6fe66c0d9a682a8a4b81f8b2cc715009885f1dd807f0a9936ced26ec238d5986"
+    },
+    {
+      "ruta": "voz_calida.aiff",
+      "bytes": 165608,
+      "sha256": "897332d9d96b7b0fee0bba69d7ecc93ab9e08c2000ae9fbfcfa9e66106cfdb18"
+    },
+    {
+      "ruta": "voz_calida.wav",
+      "bytes": 161590,
+      "sha256": "39b0e60d9e3729634d65b382452c0271480d73f9312ef6c3176ebdeff1b960ec"
+    },
+    {
+      "ruta": "voz_grave.aiff",
+      "bytes": 197354,
+      "sha256": "fc527b8d4fef04c94b6098f5070bd9bd773bc022ed47e827ea11b0ae14372c27"
+    },
+    {
+      "ruta": "voz_grave.wav",
+      "bytes": 193336,
+      "sha256": "20c976262c1371e7be36c72b7e496542f77df6ff7c432ac02df8b58a977d1f86"
+    },
+    {
+      "ruta": "web/Abrir taller de Juan.command",
+      "bytes": 97,
+      "sha256": "ace7f9d3f545f1d1cbe699fa8fb45bb3db371bfbf1644638917d0820a096cdc3"
+    },
+    {
+      "ruta": "web/EDITOR_3D.md",
+      "bytes": 8645,
+      "sha256": "2e2db556027358656fe159081a262b237076186bfdf055f8cdc3cf0b34f626f2"
+    },
+    {
+      "ruta": "web/PRODUCCION_VIDEO.md",
+      "bytes": 6259,
+      "sha256": "1c046f27fe96a4b64d9e9e993c90d30e503404a3a0a6bca6b221e21b5fa89abd"
+    },
+    {
+      "ruta": "web/README.md",
+      "bytes": 4237,
+      "sha256": "1d7536d895ce6114b2a6c1a8db51303fe44c1860cf5cac7294c6a3615fc1a41b"
+    },
+    {
+      "ruta": "web/app.js",
+      "bytes": 12765,
+      "sha256": "e9f6e57921d1f7eda64d5471c543ade59f3826f6533f825ecfa328b46d2c77bf"
+    },
+    {
+      "ruta": "web/assets/referencia.png",
+      "bytes": 2363575,
+      "sha256": "a938194f692aa33aa94e7e57e9794f99ddf3f3ee646bcf2b881f6d4a037f799e"
+    },
+    {
+      "ruta": "web/assets/voz_calida.wav",
+      "bytes": 161590,
+      "sha256": "39b0e60d9e3729634d65b382452c0271480d73f9312ef6c3176ebdeff1b960ec"
+    },
+    {
+      "ruta": "web/assets/voz_grave.wav",
+      "bytes": 193336,
+      "sha256": "20c976262c1371e7be36c72b7e496542f77df6ff7c432ac02df8b58a977d1f86"
+    },
+    {
+      "ruta": "web/avatar.js",
+      "bytes": 8693,
+      "sha256": "1dd052bb1ec754d7d034f717965df307175102c3ba084d8238c8d7d7f54637d5"
+    },
+    {
+      "ruta": "web/demo-project.js",
+      "bytes": 1394,
+      "sha256": "bb252cf47c2691d789dd93197b20478de43ea12907ef5710cd51401f0d565d1d"
+    },
+    {
+      "ruta": "web/ejemplos/Juan-demo-completa.mp4",
+      "bytes": 1570437,
+      "sha256": "f298fc6c76511564d0e3f3f9538d1981fa0f2bf75a538572e453203c5b06e31e"
+    },
+    {
+      "ruta": "web/ejemplos/Juan-pelicula.json",
+      "bytes": 539,
+      "sha256": "a8a976bd46cc0cc072c60f841e84e15dd1f4fe23e12c1b6b766ba75f9a15d858"
+    },
+    {
+      "ruta": "web/ejemplos/README.md",
+      "bytes": 605,
+      "sha256": "5e91131dbd65629f6ddc01a464f10b10a45cdd52fa506b6b47c2063fd395f731"
+    },
+    {
+      "ruta": "web/ejemplos/Una historia de Juan.mp4",
+      "bytes": 2054415,
+      "sha256": "cba69bbb46f4ec66680f16320bd5cf54bee6bf8a0ab36fa0560b29d583d56a70"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/Juan-proyecto-v3.json",
+      "bytes": 5756,
+      "sha256": "e51abd14a51a04a84d2b916c26fc94d890bcecd3669994a3ae1c8483d8bd1d3c"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/Juan-toma-3D.glb",
+      "bytes": 2204844,
+      "sha256": "4b51b67a8c8f8cf9ad4f49837157574094c563e8e15fc8b7fdfdd8b0b94f54eb"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/Montaje-actual-guardado.json",
+      "bytes": 5452,
+      "sha256": "736c1b454314fc4ee499aad20d4daa844a8d7921972419a3cf1cb96c88e5ec1c"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/Tres-mundos-de-Juan.json",
+      "bytes": 4957,
+      "sha256": "8b59b2c56fe7996c46b45eab2e35314039ff6e25833304bcda85648e48fef010"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/Tres-mundos-de-Juan.mp4",
+      "bytes": 2033811,
+      "sha256": "d6710dfa0ecc587a37d0ab88bc82ebb71f50882ea0d447399cc929f56e2c1e25"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/bosque-video.png",
+      "bytes": 277489,
+      "sha256": "075ba03851f5cab1c5fbdfbb26efac163deadf8405b1946c8ed9c5faf407f31c"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/pueblo-video.png",
+      "bytes": 197902,
+      "sha256": "1eed7770eba244522f31dacd12bacece225e9680ff8798cc983c4c1fea55efb3"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/render/Juan_toma.blend",
+      "bytes": 947956,
+      "sha256": "be281b9e042d6320bf9abd0f81c7710b1176bfab6f470fabfa04b8414c1528a5"
+    },
+    {
+      "ruta": "web/ejemplos/editor-3d/render/vista.png",
+      "bytes": 493192,
+      "sha256": "63859fb13dc553f2c4d6829416db7ba655afee28794528671ce2ae379ee03109"
+    },
+    {
+      "ruta": "web/ejemplos/fotograma-demo.png",
+      "bytes": 203983,
+      "sha256": "37b579983a65c14c381740bff40a68932eb261350b1f1dfb3a50072d77aeee88"
+    },
+    {
+      "ruta": "web/index.html",
+      "bytes": 15959,
+      "sha256": "538523a47d7a89c3215883ba5b8d0db2a381a8fca61fffd814b65666dacd3079"
+    },
+    {
+      "ruta": "web/motions.js",
+      "bytes": 7226,
+      "sha256": "5133d364d181d10696730f117da93cd114622715da01fa8475c55cec1694e99e"
+    },
+    {
+      "ruta": "web/render_blender.py",
+      "bytes": 3092,
+      "sha256": "05ff0fa329d497099f9137241a1fa8255d5614171893e25aa0febea993603777"
+    },
+    {
+      "ruta": "web/scene-data.js",
+      "bytes": 2263,
+      "sha256": "4a62c88c0e3d696334c9ada720f3bccfa126c699663b05ead0cef6d0d4befe59"
+    },
+    {
+      "ruta": "web/scene-editor.js",
+      "bytes": 14216,
+      "sha256": "bb86b2936fb8fa639d37583b051d423ecf0f0f03db406802d5a2e29919171d94"
+    },
+    {
+      "ruta": "web/scenery.js",
+      "bytes": 6171,
+      "sha256": "fee3424600923b45d78ab9e50f07cce1f0acc87b372e73398876582844e7ffe0"
+    },
+    {
+      "ruta": "web/serve.py",
+      "bytes": 797,
+      "sha256": "4f4780ebf0b918bd068217130612e938a70ce25f5576dde697e26c97c6c56cbc"
+    },
+    {
+      "ruta": "web/studio.js",
+      "bytes": 22700,
+      "sha256": "d8ff9a3ac31f73d239c1025b8fe20ff99858974b4591a4909796d4f0eff47d50"
+    },
+    {
+      "ruta": "web/style.css",
+      "bytes": 24617,
+      "sha256": "baa86329eb47454b19e3387cb8bee87011af547dca2e065d76a49f93e57a2101"
+    },
+    {
+      "ruta": "web/test-motions.mjs",
+      "bytes": 1223,
+      "sha256": "90b0a324eaf0f44b362116fef20fb4f319ec5237d281a83f1cb9cb728d5ba554"
+    },
+    {
+      "ruta": "web/test-scenes.mjs",
+      "bytes": 1780,
+      "sha256": "835daec9333157c19b2895fcc3d85722fa6f20b4447aeec98f0b41a27df4deed"
+    },
+    {
+      "ruta": "web/vendor/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "ruta": "web/vendor/GLTFExporter.js",
+      "bytes": 86392,
+      "sha256": "e7c29444454eb321b39e4c8b3062944f4fd5299a0e7483e9cb8c0594cdec829f"
+    },
+    {
+      "ruta": "web/vendor/LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "ruta": "web/vendor/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "ruta": "web/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "ruta": "web/vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "ruta": "web/vista-editor-3d.jpg",
+      "bytes": 19232,
+      "sha256": "a1fa8d3027758d3a1ec860046a08e649e2d4967afe1ea235b740268ed2ace845"
+    },
+    {
+      "ruta": "web/vista-produccion.jpg",
+      "bytes": 68965,
+      "sha256": "318a26c31bc3a7ff4a50a3945efd4bdfb9d3b81f8ac178af85276335e919f158"
+    },
+    {
+      "ruta": "web/vista-web.jpg",
+      "bytes": 92936,
+      "sha256": "48c9417430b16b6a8e3f1f55a36a99d8be81ddc3d66cd57bf4730d529d394cf1"
+    }
+  ]
+}

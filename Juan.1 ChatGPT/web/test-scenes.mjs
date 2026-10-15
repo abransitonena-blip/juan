@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {ASSETS,ENVIRONMENTS,DEFAULT_SCENE,normalizeScene,pathAt} from './scene-data.js';
+import {validateProject} from './motions.js';
+const scene=DEFAULT_SCENE();scene.environment='bosque';scene.juan.end=[2,0,0];scene.objects.push({id:'dog',kind:'perro',position:[1,0,0],end:[2,0,1],rotation:.5,scale:.7,behavior:'seguir'});
+const project={version:3,clips:[{motion:'caminar',duration:6,speed:1,camera:'custom',outfit:'artesano',scene,title:'Un paseo con Juan',offset:1,view:{position:[0,3,8],target:[0,1.5,0]}}]};
+const roundTrip=validateProject(JSON.parse(JSON.stringify(project)));assert.equal(roundTrip[0].scene.objects[0].behavior,'seguir');assert.deepEqual(roundTrip[0].scene.juan.end,[2,0,0]);assert.equal(roundTrip[0].title,project.clips[0].title);assert.equal(roundTrip[0].offset,1);assert.deepEqual(roundTrip[0].view,project.clips[0].view);
+assert.equal(Object.keys(ASSETS).length,14);assert.equal(Object.keys(ENVIRONMENTS).length,6);assert.deepEqual(pathAt([0,0,0],[2,2,2],.5),[1,1,1]);assert.deepEqual(pathAt([0,0,0],[2,2,2],3),[2,2,2]);
+assert.equal(validateProject({version:2,clips:[{motion:'saludo',duration:3,speed:1,camera:'general',outfit:'artesano'}]})[0].scene.environment,'taller');
+for(const s of [{...scene,environment:'invalid'},{...scene,objects:Array(31).fill(scene.objects[0])},{...scene,objects:[{...scene.objects[0],kind:'javascript'}]},{...scene,objects:[scene.objects[0],scene.objects[0]]},{...scene,background:'https://example.com/remote.png'}])assert.throws(()=>normalizeScene(s));
+assert.throws(()=>validateProject({...project,clips:[{...project.clips[0],view:null}]}));
+console.log('Escenas verificadas: 14 elementos, 6 ambientes, recorridos, migración v2, guardado v3 y rechazo de datos inválidos.');

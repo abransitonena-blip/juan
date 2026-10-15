@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "estado": "especificacion_de_arte_pendiente_de_modelado",
+  "autor_modulo": "Juan.2 - Arte y plan",
+  "contrato": {
+    "unidades": "metros",
+    "eje_vertical": "Y",
+    "frente_personajes": "+Z",
+    "conversion_motor_actual": "1 metro = 1.786 unidades en studio/static/world.js",
+    "variantes_salida": ["9:16", "16:9", "4:5"],
+    "capas": ["fondo_2D_opcional", "set_3D", "objetos_interactivos", "luces", "anclas_de_accion"],
+    "regla": "No son fondos ya disponibles. Cada set necesita modelado, integración y verificación antes de aparecer como opción funcional."
+  },
+  "sets": [
+    {
+      "id": "patio_alfareria",
+      "nombre": "Patio de alfarería",
+      "prioridad": 1,
+      "intencion": "Curiosidad y orgullo tranquilo por una pieza hecha a mano.",
+      "paleta": ["#BD704D", "#36696A", "#EAD7B1", "#6E7951"],
+      "dimensiones_m": [8, 4, 7],
+      "zona_libre_m": {"x": [-2, 2], "z": [-1.5, 2]},
+      "decorado": ["muros de cal", "arco bajo", "estantes de barro", "enredadera"],
+      "objetos_interactivos": ["mesa de trabajo", "jarra de barro", "banco", "canasta"],
+      "luz": {"principal": "lateral cálida desde izquierda", "relleno": "rebote suave de muro claro", "contraluz": "sol suave desde arco"},
+      "camaras": ["general de presentación", "medio con mesa", "detalle de mano y jarra"],
+      "acciones_de_prueba": ["Juan entra", "mira la pieza", "la muestra al perro", "vuelve a cámara"],
+      "restricciones": ["Mantener objetos pequeños lejos del área inferior de subtítulos.", "La jarra debe tener pivote propio y ancla de agarre."]
+    },
+    {
+      "id": "cocina_abuela",
+      "nombre": "Cocina de la abuela",
+      "prioridad": 2,
+      "intencion": "Cuidado y complicidad entre dos personajes.",
+      "paleta": ["#E5CDA5", "#3D6C8A", "#9B4B35", "#788264"],
+      "dimensiones_m": [7, 3.5, 6],
+      "decorado": ["azulejo azul", "ventana lateral", "vigas", "repisas"],
+      "objetos_interactivos": ["mesa", "taza", "cuchara", "plato", "silla"],
+      "luz": {"principal": "ventana amplia", "relleno": "rebote de paredes", "contraluz": "práctico cálido de cocina"},
+      "camaras": ["plano de dos", "contraplano de Juan", "detalle de taza"],
+      "acciones_de_prueba": ["escuchar", "ofrecer una taza", "sonreír con una pausa"],
+      "restricciones": ["No simular líquidos ni vapor físico en la primera versión."]
+    },
+    {
+      "id": "azotea_pueblo",
+      "nombre": "Azotea del pueblo",
+      "prioridad": 3,
+      "intencion": "Asombro sereno para historias del cielo y recuerdos.",
+      "paleta": ["#1E2946", "#6A668D", "#DCA15D", "#E4D9B8"],
+      "dimensiones_m": [9, 5, 8],
+      "decorado": ["pretil", "tejados distantes", "cielo por capas", "tendedero"],
+      "objetos_interactivos": ["banco", "farol", "cuaderno"],
+      "luz": {"principal": "luna lateral azul tenue", "relleno": "ambiente nocturno", "contraluz": "farol cálido para separar la silueta"},
+      "camaras": ["general con horizonte", "medio de Juan", "mirada hacia el cielo"],
+      "acciones_de_prueba": ["sentarse si el rig lo permite", "señalar", "escuchar a otro personaje"],
+      "restricciones": ["Mantener detalle en madera y ojos sin convertir la noche en negro plano."]
+    },
+    {
+      "id": "estacion_tren",
+      "nombre": "Estación de tren pequeña",
+      "prioridad": 4,
+      "intencion": "Expectativa, despedida y reencuentro.",
+      "paleta": ["#B98C61", "#536B68", "#E6D6B8", "#6B493C"],
+      "dimensiones_m": [14, 5, 9],
+      "decorado": ["andén", "marquesina", "reloj", "vía al fondo"],
+      "objetos_interactivos": ["maleta", "boleto", "banco"],
+      "luz": {"principal": "mañana rasante", "relleno": "cielo suave", "contraluz": "bordes de marquesina"},
+      "camaras": ["general del andén", "medio con maleta", "primer plano de reacción"],
+      "acciones_de_prueba": ["esperar", "consultar boleto", "saludar a lo lejos"],
+      "restricciones": ["Tren decorativo al inicio; no anunciar vehículo manejable ni física ferroviaria."]
+    },
+    {
+      "id": "ribera_molino",
+      "nombre": "Ribera con molino",
+      "prioridad": 5,
+      "intencion": "Exploración y descubrimiento compartido con animales.",
+      "paleta": ["#769B7D", "#6C989E", "#D4BA80", "#705640"],
+      "dimensiones_m": [14, 6, 12],
+      "decorado": ["sendero", "ribera", "molino", "árboles"],
+      "objetos_interactivos": ["puente", "canasta", "piedra para sentarse"],
+      "luz": {"principal": "sol filtrado", "relleno": "cielo y agua", "contraluz": "borde suave en vegetación"},
+      "camaras": ["general del sendero", "seguimiento lateral", "detalle de hallazgo"],
+      "acciones_de_prueba": ["caminar con perro", "detenerse", "señalar el molino"],
+      "restricciones": ["Agua y rueda con animación determinista; no requieren simulación física en el primer set."]
+    },
+    {
+      "id": "archivo_curiosidades",
+      "nombre": "Archivo de curiosidades de Juan",
+      "prioridad": 6,
+      "intencion": "Descubrir un objeto y contar una historia con evidencia visible.",
+      "paleta": ["#705239", "#A4774D", "#D7C79C", "#4F6E70"],
+      "dimensiones_m": [8, 4, 7],
+      "decorado": ["estantería", "cajoneras", "mapas genéricos", "ventana alta"],
+      "objetos_interactivos": ["libro", "caja", "moneda", "lupa", "mesa"],
+      "luz": {"principal": "ventana alta lateral", "relleno": "rebote cálido", "contraluz": "lámpara de escritorio"},
+      "camaras": ["general de descubrimiento", "medio con objeto", "detalle del objeto"],
+      "acciones_de_prueba": ["abrir una caja", "examinar una moneda", "presentar un dato"],
+      "restricciones": ["Revisar las fuentes del dato por separado; el decorado no constituye evidencia histórica."]
+    }
+  ]
+}

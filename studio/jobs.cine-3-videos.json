@@ -1,0 +1,33 @@
+[
+ {"name":"1-noche-de-ofrenda","voice":"jorge","outfit":"fiesta","background":"muertos","format":"tiktok","cinema":true,
+  "text":"Shhh... acércate, ven. Es noche de ofrenda, y quiero enseñarte algo. ¿Ves esas flores naranjas? Se llaman cempasúchil. En náhuatl quiere decir flor de veinte, y dicen que su color brilla tanto que las almas lo ven desde muy lejos. Por eso se hace un caminito de pétalos, desde la puerta hasta el altar, para que nadie se pierda de regreso a casa. Mi abuelo me lo explicó así: nadie se va del todo, mientras alguien lo recuerde. Y mira qué bonito: la UNESCO reconoció esta tradición como Patrimonio de la Humanidad. Ahora dime... ¿a quién le dejarías una flor esta noche?",
+  "cues":[
+   {"at":0.3,"title":"NOCHE DE\nOFRENDA","dur":2.8},
+   {"on":"acércate","cam":"push","dur":8},
+   {"on":"cempasúchil","flower":true},{"on":"cempasúchil","icon":"flor","pos":[0.78,0.2],"dur":2.2},{"on":"cempasúchil","hat":"tip"},
+   {"on":"caminito","fx":"petalos","dur":6},
+   {"on":"almas","fx":"estrellas","dur":3},
+   {"on":"abuelo","hat":"tip"},{"on":"abuelo","icon":"vela","pos":[0.22,0.22],"dur":2.4},
+   {"on":"UNESCO","icon":"estrella","pos":[0.78,0.2]},{"on":"UNESCO","hat":"pop"},{"on":"UNESCO","cam":"punch"},
+   {"on":"dime","cam":"punch"},{"on":"flor","nth":2,"icon":"corazon","pos":[0.5,0.18],"dur":2.4},{"on":"flor","nth":2,"fx":"petalos","dur":4}]},
+ {"name":"2-el-chocolate-que-era-dinero","voice":"jorge","outfit":"artesano","background":"mercado","format":"tiktok","cinema":true,"coin":true,
+  "text":"Imagínate un mercado hace quinientos años. Gritos, olores, regateo... y de pronto, alguien saca un puñado de semillas y dice: ¡pago con esto! No eran monedas. Era cacao. Se cuenta que con unos cien granos te llevabas un guajolote entero. Pero ojo, que ahí también había tramposos: algunos hacían granos falsos de barro, ¡imagínate el susto del vendedor! Hoy pagamos con tarjeta y hasta con el celular, pero la idea sigue igual: dinero es lo que todos aceptamos como valioso. Dime, ¿con qué pagarías tú, con monedas o con chocolate?",
+  "cues":[
+   {"at":0.3,"title":"EL CHOCOLATE\nQUE ERA DINERO","dur":3},
+   {"on":"gritos","cam":"shake"},{"on":"semillas","hat":"pop"},{"on":"semillas","cam":"punch"},
+   {"on":"cacao","icon":"moneda","pos":[0.78,0.22],"dur":2.2},{"on":"cacao","fx":"brillo","dur":3},
+   {"on":"guajolote","cam":"punch"},
+   {"on":"tramposos","hat":"wobble"},{"on":"tramposos","cam":"shake"},{"on":"barro","icon":"calavera","pos":[0.2,0.2],"dur":2},
+   {"on":"Hoy","bg":"plaza"},{"on":"celular","fx":"confeti","dur":3},
+   {"on":"Dime","cam":"punch"},{"on":"chocolate","hat":"tip"}]},
+ {"name":"3-la-luna-se-va","voice":"jorge","outfit":"madera","background":"noche","format":"tiktok","cinema":true,
+  "text":"Esta noche, mira hacia arriba. Esa luna que ves... se está yendo. Despacito, sin despedirse. Cada año se aleja unos tres punto ocho centímetros, más o menos lo que te crece una uña. Parece poquito, pero en millones de años cambia todo: los eclipses totales se irán volviendo cada vez más raros. Así que si algún día ves uno, no lo dejes para después. A veces lo más importante se aleja tan despacio, que ni lo notamos. Abraza hoy. Y ahora dime... ¿con quién quieres mirar la luna?",
+  "cues":[
+   {"at":0.3,"title":"LA LUNA\nSE VA","dur":2.8},
+   {"on":"mira","cam":"push","dur":9},{"on":"luna","icon":"luna","pos":[0.78,0.2],"dur":2.4},
+   {"on":"despedirse","hat":"tip"},{"on":"uña","hat":"wobble"},
+   {"on":"millones","bg":"espacio"},{"on":"millones","fx":"estrellas","dur":4},
+   {"on":"eclipses","cam":"punch"},{"on":"después","hat":"pop"},
+   {"on":"Abraza","icon":"corazon","pos":[0.5,0.2],"dur":2.4},{"on":"Abraza","hat":"toss"},
+   {"on":"luna","nth":2,"bg":"noche"},{"on":"luna","nth":2,"fx":"estrellas","dur":3}]}
+]

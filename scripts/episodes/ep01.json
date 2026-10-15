@@ -1,0 +1,14 @@
+{
+  "name": "ep01_primer_billete",
+  "title": "El primer billete del mundo",
+  "outfit": "default",
+  "lines": [
+    { "lang": "es", "text": "¡Hola, amigos! Soy Juan. Mi abuelo decía que cada moneda cuenta una historia." },
+    { "lang": "es", "text": "De niño rompí mi alcancía para comprar dulces. El domingo ya no tenía ni un peso para el cine." },
+    { "lang": "es", "text": "Hoy les traigo un dato chino. ¿Saben quién inventó el billete? No fueron los europeos." },
+    { "lang": "es", "text": "Hace más de mil años, en China, los comerciantes cargaban monedas de hierro que pesaban muchísimo. Así que empezaron a dejar su dinero con un banquero y recibir un papelito. Lo llamaron:" },
+    { "lang": "zh", "text": "交子。" },
+    { "lang": "es", "text": "Jiaozi. El primer papel moneda de la historia. Siglos después, Marco Polo se asombró de que en China el papel valiera como oro." },
+    { "lang": "es", "text": "La moraleja: ahorra una moneda cada día. ¡Hasta luego!" }
+  ]
+}

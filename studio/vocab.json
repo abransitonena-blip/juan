@@ -1,0 +1,1707 @@
+{
+"1": {
+"n": 1,
+"p": "U N O",
+"src": "auto"
+},
+"2": {
+"n": 1,
+"p": "L O S",
+"src": "auto"
+},
+"3": {
+"n": 1,
+"p": "R E S",
+"src": "auto"
+},
+"3monedas": {
+"n": 2,
+"p": "R E S M O N E L A S",
+"src": "auto"
+},
+"4": {
+"n": 1,
+"p": "K U A",
+"src": "auto"
+},
+"5": {
+"n": 1,
+"p": "S I N",
+"src": "auto"
+},
+"a": {
+"n": 12,
+"p": "A",
+"src": "auto"
+},
+"abraza": {
+"n": 2,
+"p": "A M R A S A",
+"src": "auto"
+},
+"abuelo": {
+"n": 7,
+"p": "A M U E L O",
+"src": "auto"
+},
+"aceptamos": {
+"n": 2,
+"p": "A S E M L A M O S",
+"src": "auto"
+},
+"acércate": {
+"n": 2,
+"p": "A S E R S A L E",
+"src": "auto"
+},
+"adorno": {
+"n": 1,
+"p": "A L O R N O",
+"src": "auto"
+},
+"ahora": {
+"n": 4,
+"p": "A O R A",
+"src": "auto"
+},
+"ahorra": {
+"n": 5,
+"p": "A O R A",
+"src": "auto"
+},
+"ahorrar": {
+"n": 1,
+"p": "A O R A R",
+"src": "auto"
+},
+"ahí": {
+"n": 3,
+"p": "A I",
+"src": "auto"
+},
+"al": {
+"n": 4,
+"p": "A L",
+"src": "auto"
+},
+"aleja": {
+"n": 4,
+"p": "A L E K A",
+"src": "auto"
+},
+"alejando": {
+"n": 2,
+"p": "A L E K A N L O",
+"src": "auto"
+},
+"algo": {
+"n": 2,
+"p": "A L K O",
+"src": "auto"
+},
+"alguien": {
+"n": 5,
+"p": "A L K I E N",
+"src": "auto"
+},
+"alguna": {
+"n": 3,
+"p": "A L K U N A",
+"src": "auto"
+},
+"algunos": {
+"n": 2,
+"p": "A L K U N O S",
+"src": "auto"
+},
+"algún": {
+"n": 2,
+"p": "A L K U N",
+"src": "auto"
+},
+"almas": {
+"n": 4,
+"p": "A L M A S",
+"src": "auto"
+},
+"altar": {
+"n": 4,
+"p": "A L A R",
+"src": "auto"
+},
+"amigos": {
+"n": 17,
+"p": "A M I K O S",
+"src": "auto"
+},
+"aprovéchalo": {
+"n": 2,
+"p": "A M R O M E S A L O",
+"src": "auto"
+},
+"arriba": {
+"n": 4,
+"p": "A R I M A",
+"src": "auto"
+},
+"así": {
+"n": 13,
+"p": "A S I",
+"src": "auto"
+},
+"ayudan": {
+"n": 2,
+"p": "A I U L A N",
+"src": "auto"
+},
+"ayudó": {
+"n": 1,
+"p": "A I U L O",
+"src": "auto"
+},
+"año": {
+"n": 6,
+"p": "A N O",
+"src": "auto"
+},
+"años": {
+"n": 11,
+"p": "A N O S",
+"src": "auto"
+},
+"banquero": {
+"n": 5,
+"p": "M A N K E R O",
+"src": "auto"
+},
+"barro": {
+"n": 4,
+"p": "M A R O",
+"src": "auto"
+},
+"billete": {
+"n": 7,
+"p": "M I E L E",
+"src": "auto"
+},
+"bolsillo": {
+"n": 1,
+"p": "M O L S I O",
+"src": "auto"
+},
+"bonito": {
+"n": 2,
+"p": "M O N I L O",
+"src": "auto"
+},
+"borde": {
+"n": 1,
+"p": "M O R L E",
+"src": "auto"
+},
+"brilla": {
+"n": 2,
+"p": "M R I A",
+"src": "auto"
+},
+"cabe": {
+"n": 1,
+"p": "S A M E",
+"src": "auto"
+},
+"cacao": {
+"n": 4,
+"p": "S A S A O",
+"src": "auto"
+},
+"cada": {
+"n": 10,
+"p": "S A L A",
+"src": "auto"
+},
+"calle": {
+"n": 2,
+"p": "S A I E",
+"src": "auto"
+},
+"cambia": {
+"n": 6,
+"p": "S A M I A",
+"src": "auto"
+},
+"cambio": {
+"n": 2,
+"p": "S A M I O",
+"src": "auto"
+},
+"caminito": {
+"n": 4,
+"p": "S A M I N I L O",
+"src": "auto"
+},
+"cargaban": {
+"n": 5,
+"p": "S A R K A M A N",
+"src": "auto"
+},
+"casa": {
+"n": 5,
+"p": "S A S A",
+"src": "auto"
+},
+"celebración": {
+"n": 2,
+"p": "S E L E M R A S I O N",
+"src": "auto"
+},
+"celular": {
+"n": 2,
+"p": "S E L U L A R",
+"src": "auto"
+},
+"cempasúchil": {
+"n": 4,
+"p": "S E M A S U S I L",
+"src": "auto"
+},
+"centímetros": {
+"n": 4,
+"p": "S E N L I M E L R O S",
+"src": "auto"
+},
+"china": {
+"n": 7,
+"p": "S I N A",
+"src": "auto"
+},
+"chiquito": {
+"n": 1,
+"p": "S I K I L O",
+"src": "auto"
+},
+"chocolate": {
+"n": 4,
+"p": "S O S O L A L E",
+"src": "auto"
+},
+"cien": {
+"n": 4,
+"p": "S I E N",
+"src": "auto"
+},
+"color": {
+"n": 4,
+"p": "S O L O R",
+"src": "auto"
+},
+"comentarios": {
+"n": 3,
+"p": "S O M E N L A R I O S",
+"src": "auto"
+},
+"comerciantes": {
+"n": 5,
+"p": "S O M E R S I A N L E S",
+"src": "auto"
+},
+"como": {
+"n": 4,
+"p": "S O M O",
+"src": "auto"
+},
+"comprar": {
+"n": 2,
+"p": "S O M R A R",
+"src": "auto"
+},
+"con": {
+"n": 11,
+"p": "S O N",
+"src": "auto"
+},
+"confianza": {
+"n": 2,
+"p": "S O N F I A N S A",
+"src": "auto"
+},
+"contra": {
+"n": 1,
+"p": "S O N L R A",
+"src": "auto"
+},
+"crece": {
+"n": 2,
+"p": "S R E S E",
+"src": "auto"
+},
+"crecen": {
+"n": 2,
+"p": "S R E S E N",
+"src": "auto"
+},
+"cuando": {
+"n": 1,
+"p": "S U A N L O",
+"src": "auto"
+},
+"cuenta": {
+"n": 9,
+"p": "S U E N L A",
+"src": "auto"
+},
+"cuente": {
+"n": 3,
+"p": "S U E N L E",
+"src": "auto"
+},
+"cuento": {
+"n": 2,
+"p": "S U E N L O",
+"src": "auto"
+},
+"cuida": {
+"n": 5,
+"p": "S U I L A",
+"src": "auto"
+},
+"cultural": {
+"n": 2,
+"p": "S U L U R A L",
+"src": "auto"
+},
+"cuál": {
+"n": 1,
+"p": "S U A L",
+"src": "auto"
+},
+"cuéntamelo": {
+"n": 3,
+"p": "S U E N L A M E L O",
+"src": "auto"
+},
+"dato": {
+"n": 1,
+"p": "L A L O",
+"src": "auto"
+},
+"de": {
+"n": 20,
+"p": "L E",
+"src": "auto"
+},
+"decir": {
+"n": 2,
+"p": "L E S I R",
+"src": "auto"
+},
+"declaró": {
+"n": 2,
+"p": "L E S L A R O",
+"src": "auto"
+},
+"decía": {
+"n": 5,
+"p": "L E S I A",
+"src": "auto"
+},
+"dejar": {
+"n": 5,
+"p": "L E K A R",
+"src": "auto"
+},
+"dejarías": {
+"n": 2,
+"p": "L E K A R I A S",
+"src": "auto"
+},
+"dejes": {
+"n": 2,
+"p": "L E K E S",
+"src": "auto"
+},
+"del": {
+"n": 13,
+"p": "L E L",
+"src": "auto"
+},
+"derretir": {
+"n": 2,
+"p": "L E R E L I R",
+"src": "auto"
+},
+"desde": {
+"n": 4,
+"p": "L E S L E",
+"src": "auto"
+},
+"despacio": {
+"n": 2,
+"p": "L E S M A S I O",
+"src": "auto"
+},
+"despacito": {
+"n": 2,
+"p": "L E S M A S I L O",
+"src": "auto"
+},
+"despedirse": {
+"n": 2,
+"p": "L E S M E L I R S E",
+"src": "auto"
+},
+"después": {
+"n": 2,
+"p": "L E S M U E S",
+"src": "auto"
+},
+"dice": {
+"n": 2,
+"p": "L I S E",
+"src": "auto"
+},
+"dicen": {
+"n": 2,
+"p": "L I S E N",
+"src": "auto"
+},
+"diez": {
+"n": 1,
+"p": "L I E S",
+"src": "auto"
+},
+"dijera": {
+"n": 2,
+"p": "L I K E R A",
+"src": "auto"
+},
+"dime": {
+"n": 6,
+"p": "L I M E",
+"src": "auto"
+},
+"dinero": {
+"n": 9,
+"p": "L I N E R O",
+"src": "auto"
+},
+"dirigía": {
+"n": 1,
+"p": "L I R I K I A",
+"src": "auto"
+},
+"dos": {
+"n": 2,
+"p": "L O S",
+"src": "auto"
+},
+"durará": {
+"n": 2,
+"p": "L U R A R A",
+"src": "auto"
+},
+"día": {
+"n": 12,
+"p": "L I A",
+"src": "auto"
+},
+"eclipses": {
+"n": 4,
+"p": "E S L I M S E S",
+"src": "auto"
+},
+"el": {
+"n": 16,
+"p": "E L",
+"src": "auto"
+},
+"empezaron": {
+"n": 5,
+"p": "E M E S A R O N",
+"src": "auto"
+},
+"en": {
+"n": 18,
+"p": "E N",
+"src": "auto"
+},
+"enseñarte": {
+"n": 2,
+"p": "E N S E N A R L E",
+"src": "auto"
+},
+"entero": {
+"n": 2,
+"p": "E N L E R O",
+"src": "auto"
+},
+"episodio": {
+"n": 5,
+"p": "E M I S O L I O",
+"src": "auto"
+},
+"era": {
+"n": 4,
+"p": "E R A",
+"src": "auto"
+},
+"eran": {
+"n": 2,
+"p": "E R A N",
+"src": "auto"
+},
+"es": {
+"n": 12,
+"p": "E S",
+"src": "auto"
+},
+"esa": {
+"n": 2,
+"p": "E S A",
+"src": "auto"
+},
+"esas": {
+"n": 3,
+"p": "E S A S",
+"src": "auto"
+},
+"escudo": {
+"n": 1,
+"p": "E S U L O",
+"src": "auto"
+},
+"ese": {
+"n": 6,
+"p": "E S E",
+"src": "auto"
+},
+"eso": {
+"n": 3,
+"p": "E S O",
+"src": "auto"
+},
+"esta": {
+"n": 6,
+"p": "E S L A",
+"src": "auto"
+},
+"este": {
+"n": 2,
+"p": "E S L E",
+"src": "auto"
+},
+"esto": {
+"n": 2,
+"p": "E S L O",
+"src": "auto"
+},
+"está": {
+"n": 6,
+"p": "E S L A",
+"src": "auto"
+},
+"están": {
+"n": 1,
+"p": "E S L A N",
+"src": "auto"
+},
+"explicó": {
+"n": 2,
+"p": "E S M L I S O",
+"src": "auto"
+},
+"falsificadores": {
+"n": 2,
+"p": "F A L S I F I S A L O R E S",
+"src": "auto"
+},
+"falsos": {
+"n": 4,
+"p": "F A L S O S",
+"src": "auto"
+},
+"flor": {
+"n": 4,
+"p": "F L O R",
+"src": "auto"
+},
+"flores": {
+"n": 4,
+"p": "F L O R E S",
+"src": "auto"
+},
+"forma": {
+"n": 2,
+"p": "F O R M A",
+"src": "auto"
+},
+"fue": {
+"n": 5,
+"p": "F U E",
+"src": "auto"
+},
+"granos": {
+"n": 4,
+"p": "K R A N O S",
+"src": "auto"
+},
+"gritos": {
+"n": 2,
+"p": "K R I L O S",
+"src": "auto"
+},
+"guajolote": {
+"n": 4,
+"p": "K U A K O L O L E",
+"src": "auto"
+},
+"guiar": {
+"n": 2,
+"p": "K I A R",
+"src": "auto"
+},
+"gustaría": {
+"n": 2,
+"p": "K U S L A R I A",
+"src": "auto"
+},
+"hablamos": {
+"n": 2,
+"p": "A M L A M O S",
+"src": "auto"
+},
+"había": {
+"n": 4,
+"p": "A M I A",
+"src": "auto"
+},
+"hace": {
+"n": 12,
+"p": "A S E",
+"src": "auto"
+},
+"hacia": {
+"n": 4,
+"p": "A S I A",
+"src": "auto"
+},
+"haciendo": {
+"n": 2,
+"p": "A S I E N L O",
+"src": "auto"
+},
+"hacían": {
+"n": 5,
+"p": "A S I A N",
+"src": "auto"
+},
+"hasta": {
+"n": 15,
+"p": "A S L A",
+"src": "auto"
+},
+"hay": {
+"n": 2,
+"p": "A I",
+"src": "auto"
+},
+"hierro": {
+"n": 5,
+"p": "I E R O",
+"src": "auto"
+},
+"historia": {
+"n": 6,
+"p": "I S L O R I A",
+"src": "auto"
+},
+"hola": {
+"n": 19,
+"p": "O L A",
+"src": "auto"
+},
+"hoy": {
+"n": 11,
+"p": "O I",
+"src": "auto"
+},
+"hubo": {
+"n": 2,
+"p": "U M O",
+"src": "auto"
+},
+"humanidad": {
+"n": 4,
+"p": "U M A N I L A L",
+"src": "auto"
+},
+"hábito": {
+"n": 1,
+"p": "A M I L O",
+"src": "auto"
+},
+"idea": {
+"n": 2,
+"p": "I L E A",
+"src": "auto"
+},
+"igual": {
+"n": 2,
+"p": "I K U A L",
+"src": "auto"
+},
+"imagínate": {
+"n": 4,
+"p": "I M A K I N A L E",
+"src": "auto"
+},
+"importante": {
+"n": 2,
+"p": "I M O R L A N L E",
+"src": "auto"
+},
+"inglaterra": {
+"n": 1,
+"p": "I N K L A L E R A",
+"src": "auto"
+},
+"inmaterial": {
+"n": 2,
+"p": "I N M A L E R I A L",
+"src": "auto"
+},
+"instante": {
+"n": 1,
+"p": "I N S L A N L E",
+"src": "auto"
+},
+"intenso": {
+"n": 2,
+"p": "I N L E N S O",
+"src": "auto"
+},
+"irán": {
+"n": 4,
+"p": "I R A N",
+"src": "auto"
+},
+"isaac": {
+"n": 1,
+"p": "I S A S",
+"src": "auto"
+},
+"juan": {
+"n": 17,
+"p": "K U A N",
+"src": "auto"
+},
+"juntando": {
+"n": 1,
+"p": "K U N L A N L O",
+"src": "auto"
+},
+"la": {
+"n": 18,
+"p": "L A",
+"src": "auto"
+},
+"ladrones": {
+"n": 1,
+"p": "L A L R O N E S",
+"src": "auto"
+},
+"las": {
+"n": 5,
+"p": "L A S",
+"src": "auto"
+},
+"le": {
+"n": 4,
+"p": "L E",
+"src": "auto"
+},
+"lejos": {
+"n": 2,
+"p": "L E K O S",
+"src": "auto"
+},
+"llamaba": {
+"n": 2,
+"p": "I A M A M A",
+"src": "auto"
+},
+"llaman": {
+"n": 4,
+"p": "I A M A N",
+"src": "auto"
+},
+"llamaron": {
+"n": 5,
+"p": "I A M A R O N",
+"src": "auto"
+},
+"llegó": {
+"n": 1,
+"p": "I E K O",
+"src": "auto"
+},
+"llena": {
+"n": 2,
+"p": "I E N A",
+"src": "auto"
+},
+"llevabas": {
+"n": 2,
+"p": "I E M A M A S",
+"src": "auto"
+},
+"lo": {
+"n": 16,
+"p": "L O",
+"src": "auto"
+},
+"los": {
+"n": 14,
+"p": "L O S",
+"src": "auto"
+},
+"luego": {
+"n": 8,
+"p": "L U E K O",
+"src": "auto"
+},
+"luna": {
+"n": 4,
+"p": "L U N A",
+"src": "auto"
+},
+"manera": {
+"n": 2,
+"p": "M A N E R A",
+"src": "auto"
+},
+"mano": {
+"n": 2,
+"p": "M A N O",
+"src": "auto"
+},
+"manzana": {
+"n": 1,
+"p": "M A N S A N A",
+"src": "auto"
+},
+"me": {
+"n": 2,
+"p": "M E",
+"src": "auto"
+},
+"mejor": {
+"n": 2,
+"p": "M E K O R",
+"src": "auto"
+},
+"menos": {
+"n": 4,
+"p": "M E N O S",
+"src": "auto"
+},
+"mercado": {
+"n": 4,
+"p": "M E R S A L O",
+"src": "auto"
+},
+"mesoamérica": {
+"n": 2,
+"p": "M E S O A M E R I S A",
+"src": "auto"
+},
+"metal": {
+"n": 1,
+"p": "M E L A L",
+"src": "auto"
+},
+"mi": {
+"n": 7,
+"p": "M I",
+"src": "auto"
+},
+"mientras": {
+"n": 2,
+"p": "M I E N L R A S",
+"src": "auto"
+},
+"mil": {
+"n": 7,
+"p": "M I L",
+"src": "auto"
+},
+"millones": {
+"n": 4,
+"p": "M I O N E S",
+"src": "auto"
+},
+"mira": {
+"n": 4,
+"p": "M I R A",
+"src": "auto"
+},
+"miramos": {
+"n": 2,
+"p": "M I R A M O S",
+"src": "auto"
+},
+"mirar": {
+"n": 2,
+"p": "M I R A R",
+"src": "auto"
+},
+"moneda": {
+"n": 9,
+"p": "M O N E L A",
+"src": "auto"
+},
+"monedas": {
+"n": 10,
+"p": "M O N E L A S",
+"src": "auto"
+},
+"moraleja": {
+"n": 12,
+"p": "M O R A L E K A",
+"src": "auto"
+},
+"muchísimo": {
+"n": 5,
+"p": "M U S I S I M O",
+"src": "auto"
+},
+"muertos": {
+"n": 2,
+"p": "M U E R L O S",
+"src": "auto"
+},
+"mueve": {
+"n": 2,
+"p": "M U E M E",
+"src": "auto"
+},
+"mundo": {
+"n": 7,
+"p": "M U N L O",
+"src": "auto"
+},
+"muy": {
+"n": 4,
+"p": "M U I",
+"src": "auto"
+},
+"más": {
+"n": 12,
+"p": "M A S",
+"src": "auto"
+},
+"nació": {
+"n": 2,
+"p": "N A S I O",
+"src": "auto"
+},
+"nadie": {
+"n": 3,
+"p": "N A L I E",
+"src": "auto"
+},
+"naranjas": {
+"n": 4,
+"p": "N A R A N K A S",
+"src": "auto"
+},
+"newton": {
+"n": 1,
+"p": "N E U L O N",
+"src": "auto"
+},
+"ni": {
+"n": 2,
+"p": "N I",
+"src": "auto"
+},
+"no": {
+"n": 7,
+"p": "N O",
+"src": "auto"
+},
+"noche": {
+"n": 6,
+"p": "N O S E",
+"src": "auto"
+},
+"nombre": {
+"n": 2,
+"p": "N O M R E",
+"src": "auto"
+},
+"notaba": {
+"n": 1,
+"p": "N O L A M A",
+"src": "auto"
+},
+"notamos": {
+"n": 2,
+"p": "N O L A M O S",
+"src": "auto"
+},
+"notara": {
+"n": 1,
+"p": "N O L A R A",
+"src": "auto"
+},
+"notaste": {
+"n": 1,
+"p": "N O L A S L E",
+"src": "auto"
+},
+"náhuatl": {
+"n": 4,
+"p": "N A U A L",
+"src": "auto"
+},
+"o": {
+"n": 8,
+"p": "O",
+"src": "auto"
+},
+"ocho": {
+"n": 6,
+"p": "O S O",
+"src": "auto"
+},
+"ofrenda": {
+"n": 4,
+"p": "O F R E N L A",
+"src": "auto"
+},
+"ojo": {
+"n": 2,
+"p": "O K O",
+"src": "auto"
+},
+"olor": {
+"n": 2,
+"p": "O L O R",
+"src": "auto"
+},
+"olores": {
+"n": 2,
+"p": "O L O R E S",
+"src": "auto"
+},
+"paciencia": {
+"n": 2,
+"p": "M A S I E N S I A",
+"src": "auto"
+},
+"pagamos": {
+"n": 2,
+"p": "M A K A M O S",
+"src": "auto"
+},
+"pagar": {
+"n": 2,
+"p": "M A K A R",
+"src": "auto"
+},
+"pagarías": {
+"n": 4,
+"p": "M A K A R I A S",
+"src": "auto"
+},
+"pago": {
+"n": 2,
+"p": "M A K O",
+"src": "auto"
+},
+"papelito": {
+"n": 5,
+"p": "M A M E L I L O",
+"src": "auto"
+},
+"para": {
+"n": 8,
+"p": "M A R A",
+"src": "auto"
+},
+"parece": {
+"n": 4,
+"p": "M A R E S E",
+"src": "auto"
+},
+"patrimonio": {
+"n": 4,
+"p": "M A L R I M O N I O",
+"src": "auto"
+},
+"peor": {
+"n": 2,
+"p": "M E O R",
+"src": "auto"
+},
+"pequeño": {
+"n": 1,
+"p": "M E K E N O",
+"src": "auto"
+},
+"pero": {
+"n": 8,
+"p": "M E R O",
+"src": "auto"
+},
+"pesaban": {
+"n": 5,
+"p": "M E S A M A N",
+"src": "auto"
+},
+"pesos": {
+"n": 1,
+"p": "M E S O S",
+"src": "auto"
+},
+"pierda": {
+"n": 2,
+"p": "M I E R L A",
+"src": "auto"
+},
+"plata": {
+"n": 1,
+"p": "M L A L A",
+"src": "auto"
+},
+"podías": {
+"n": 2,
+"p": "M O L I A S",
+"src": "auto"
+},
+"pondrías": {
+"n": 2,
+"p": "M O N L R I A S",
+"src": "auto"
+},
+"popularizar": {
+"n": 1,
+"p": "M O M U L A R I S A R",
+"src": "auto"
+},
+"poquito": {
+"n": 5,
+"p": "M O K I L O",
+"src": "auto"
+},
+"por": {
+"n": 5,
+"p": "M O R",
+"src": "auto"
+},
+"porque": {
+"n": 3,
+"p": "M O R K E",
+"src": "auto"
+},
+"primer": {
+"n": 7,
+"p": "M R I M E R",
+"src": "auto"
+},
+"pronto": {
+"n": 2,
+"p": "M R O N L O",
+"src": "auto"
+},
+"prueba": {
+"n": 2,
+"p": "M R U E M A",
+"src": "auto"
+},
+"próxima": {
+"n": 3,
+"p": "M R O S I M A",
+"src": "auto"
+},
+"pudiera": {
+"n": 2,
+"p": "M U L I E R A",
+"src": "auto"
+},
+"pueblos": {
+"n": 2,
+"p": "M U E M L O S",
+"src": "auto"
+},
+"puerta": {
+"n": 2,
+"p": "M U E R L A",
+"src": "auto"
+},
+"punto": {
+"n": 4,
+"p": "M U N L O",
+"src": "auto"
+},
+"puñado": {
+"n": 2,
+"p": "M U N A L O",
+"src": "auto"
+},
+"pétalos": {
+"n": 4,
+"p": "M E L A L O S",
+"src": "auto"
+},
+"que": {
+"n": 20,
+"p": "K E",
+"src": "auto"
+},
+"queremos": {
+"n": 2,
+"p": "K E R E M O S",
+"src": "auto"
+},
+"quienes": {
+"n": 2,
+"p": "K I E N E S",
+"src": "auto"
+},
+"quiere": {
+"n": 2,
+"p": "K I E R E",
+"src": "auto"
+},
+"quieres": {
+"n": 3,
+"p": "K I E R E S",
+"src": "auto"
+},
+"quiero": {
+"n": 2,
+"p": "K I E R O",
+"src": "auto"
+},
+"quieto": {
+"n": 2,
+"p": "K I E L O",
+"src": "auto"
+},
+"quinientos": {
+"n": 2,
+"p": "K I N I E N L O S",
+"src": "auto"
+},
+"quién": {
+"n": 6,
+"p": "K I E N",
+"src": "auto"
+},
+"qué": {
+"n": 10,
+"p": "K E",
+"src": "auto"
+},
+"raras": {
+"n": 2,
+"p": "R A R A S",
+"src": "auto"
+},
+"raros": {
+"n": 4,
+"p": "R A R O S",
+"src": "auto"
+},
+"raspaba": {
+"n": 1,
+"p": "R A S M A M A",
+"src": "auto"
+},
+"raspaban": {
+"n": 1,
+"p": "R A S M A M A N",
+"src": "auto"
+},
+"rayado": {
+"n": 1,
+"p": "R A I A L O",
+"src": "auto"
+},
+"rayitas": {
+"n": 1,
+"p": "R A I L A S",
+"src": "auto"
+},
+"recibir": {
+"n": 5,
+"p": "R E S I M I R",
+"src": "auto"
+},
+"reconoció": {
+"n": 2,
+"p": "R E S O N O S I O",
+"src": "auto"
+},
+"recordar": {
+"n": 2,
+"p": "R E S O R L A R",
+"src": "auto"
+},
+"recuerde": {
+"n": 2,
+"p": "R E S U E R L E",
+"src": "auto"
+},
+"regateo": {
+"n": 2,
+"p": "R E K A L E O",
+"src": "auto"
+},
+"regreso": {
+"n": 4,
+"p": "R E K R E S O",
+"src": "auto"
+},
+"ricos": {
+"n": 1,
+"p": "R I S O S",
+"src": "auto"
+},
+"sabes": {
+"n": 2,
+"p": "S A M E S",
+"src": "auto"
+},
+"sabían": {
+"n": 7,
+"p": "S A M I A N",
+"src": "auto"
+},
+"sabías": {
+"n": 2,
+"p": "S A M I A S",
+"src": "auto"
+},
+"saca": {
+"n": 2,
+"p": "S A S A",
+"src": "auto"
+},
+"se": {
+"n": 15,
+"p": "S E",
+"src": "auto"
+},
+"secreto": {
+"n": 2,
+"p": "S E S R E L O",
+"src": "auto"
+},
+"según": {
+"n": 2,
+"p": "S E K U N",
+"src": "auto"
+},
+"semillas": {
+"n": 2,
+"p": "S E M I A S",
+"src": "auto"
+},
+"sencilla": {
+"n": 5,
+"p": "S E N S I A",
+"src": "auto"
+},
+"shhh": {
+"n": 2,
+"p": "S",
+"src": "auto"
+},
+"si": {
+"n": 7,
+"p": "S I",
+"src": "auto"
+},
+"siempre": {
+"n": 4,
+"p": "S I E M R E",
+"src": "auto"
+},
+"sigan": {
+"n": 2,
+"p": "S I K A N",
+"src": "auto"
+},
+"siglos": {
+"n": 1,
+"p": "S I K L O S",
+"src": "auto"
+},
+"significa": {
+"n": 2,
+"p": "S I K N I F I S A",
+"src": "auto"
+},
+"sigue": {
+"n": 3,
+"p": "S I K E",
+"src": "auto"
+},
+"sin": {
+"n": 3,
+"p": "S I N",
+"src": "auto"
+},
+"solo": {
+"n": 2,
+"p": "S O L O",
+"src": "auto"
+},
+"soy": {
+"n": 17,
+"p": "S O I",
+"src": "auto"
+},
+"su": {
+"n": 9,
+"p": "S U",
+"src": "auto"
+},
+"susto": {
+"n": 2,
+"p": "S U S L O",
+"src": "auto"
+},
+"sí": {
+"n": 1,
+"p": "S I",
+"src": "auto"
+},
+"también": {
+"n": 4,
+"p": "L A M I E N",
+"src": "auto"
+},
+"tan": {
+"n": 2,
+"p": "L A N",
+"src": "auto"
+},
+"tanto": {
+"n": 2,
+"p": "L A N L O",
+"src": "auto"
+},
+"tarjeta": {
+"n": 2,
+"p": "L A R K E L A",
+"src": "auto"
+},
+"te": {
+"n": 11,
+"p": "L E",
+"src": "auto"
+},
+"tener": {
+"n": 2,
+"p": "L E N E R",
+"src": "auto"
+},
+"tiempo": {
+"n": 2,
+"p": "L I E M O",
+"src": "auto"
+},
+"tiene": {
+"n": 1,
+"p": "L I E N E",
+"src": "auto"
+},
+"tierra": {
+"n": 2,
+"p": "L I E R A",
+"src": "auto"
+},
+"todo": {
+"n": 6,
+"p": "L O L O",
+"src": "auto"
+},
+"todos": {
+"n": 2,
+"p": "L O L O S",
+"src": "auto"
+},
+"totales": {
+"n": 4,
+"p": "L O L A L E S",
+"src": "auto"
+},
+"tradición": {
+"n": 4,
+"p": "L R A L I S I O N",
+"src": "auto"
+},
+"traigo": {
+"n": 1,
+"p": "L R A I K O",
+"src": "auto"
+},
+"tramposos": {
+"n": 3,
+"p": "L R A M O S O S",
+"src": "auto"
+},
+"trayendo": {
+"n": 1,
+"p": "L R A I E N L O",
+"src": "auto"
+},
+"tres": {
+"n": 4,
+"p": "L R E S",
+"src": "auto"
+},
+"tu": {
+"n": 8,
+"p": "L U",
+"src": "auto"
+},
+"tus": {
+"n": 2,
+"p": "L U S",
+"src": "auto"
+},
+"tú": {
+"n": 4,
+"p": "L U",
+"src": "auto"
+},
+"un": {
+"n": 15,
+"p": "U N",
+"src": "auto"
+},
+"una": {
+"n": 15,
+"p": "U N A",
+"src": "auto"
+},
+"unesco": {
+"n": 4,
+"p": "U N E S O",
+"src": "auto"
+},
+"uno": {
+"n": 4,
+"p": "U N O",
+"src": "auto"
+},
+"unos": {
+"n": 8,
+"p": "U N O S",
+"src": "auto"
+},
+"usaban": {
+"n": 2,
+"p": "U S A M A N",
+"src": "auto"
+},
+"uña": {
+"n": 2,
+"p": "U N A",
+"src": "auto"
+},
+"uñas": {
+"n": 2,
+"p": "U N A S",
+"src": "auto"
+},
+"va": {
+"n": 2,
+"p": "M A",
+"src": "auto"
+},
+"vale": {
+"n": 2,
+"p": "M A L E",
+"src": "auto"
+},
+"valioso": {
+"n": 2,
+"p": "M A L I O S O",
+"src": "auto"
+},
+"veces": {
+"n": 2,
+"p": "M E S E S",
+"src": "auto"
+},
+"veinte": {
+"n": 4,
+"p": "M E I N L E",
+"src": "auto"
+},
+"vela": {
+"n": 2,
+"p": "M E L A",
+"src": "auto"
+},
+"ven": {
+"n": 2,
+"p": "M E N",
+"src": "auto"
+},
+"vendedor": {
+"n": 2,
+"p": "M E N L E L O R",
+"src": "auto"
+},
+"ves": {
+"n": 6,
+"p": "M E S",
+"src": "auto"
+},
+"vez": {
+"n": 5,
+"p": "M E S",
+"src": "auto"
+},
+"viene": {
+"n": 2,
+"p": "M I E N E",
+"src": "auto"
+},
+"virutas": {
+"n": 1,
+"p": "M I R U L A S",
+"src": "auto"
+},
+"vivos": {
+"n": 2,
+"p": "M I M O S",
+"src": "auto"
+},
+"volviendo": {
+"n": 2,
+"p": "M O L M I E N L O",
+"src": "auto"
+},
+"y": {
+"n": 18,
+"p": "I",
+"src": "auto"
+},
+"yendo": {
+"n": 2,
+"p": "I E N L O",
+"src": "auto"
+},
+"él": {
+"n": 1,
+"p": "E L",
+"src": "auto"
+}
+}

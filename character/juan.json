@@ -1,0 +1,39 @@
+{
+  "name": "Juan",
+  "style": "stylized 3D, warm Mexican craft workshop, wood-and-clay toy look",
+  "body": {
+    "height_units": 1.75,
+    "skin": "#b87a4b",
+    "hair": { "color": "#8c8c8c", "style": "short_gray" },
+    "mustache": { "color": "#8c8c8c", "style": "full_curled" },
+    "eyes": "#3b2414"
+  },
+  "outfits": {
+    "default": {
+      "hat": { "type": "sombrero_straw", "color": "#c9a45c" },
+      "vest": { "color": "#1f5f73", "buttons": "#8a5a2b" },
+      "shirt": { "color": "#f2e8d5", "sleeves": "rolled" },
+      "neckerchief": { "color": "#8b1e2b" },
+      "pants": { "color": "#5a3e26" }
+    },
+    "fiesta": {
+      "hat": { "type": "sombrero_straw", "color": "#e0b04a", "band": "#c0392b" },
+      "vest": { "color": "#2e8b57", "buttons": "#f1c40f" },
+      "shirt": { "color": "#ffffff", "sleeves": "long" },
+      "neckerchief": { "color": "#e74c3c" },
+      "pants": { "color": "#3d2b1f" }
+    },
+    "work": {
+      "hat": { "type": "cap", "color": "#7a5230" },
+      "vest": { "color": "#4a4a4a", "buttons": "#2c2c2c" },
+      "shirt": { "color": "#dcdcdc", "sleeves": "rolled" },
+      "neckerchief": null,
+      "pants": { "color": "#2f3e4e" }
+    }
+  },
+  "visemes": ["rest", "AI", "E", "O", "U", "FV", "MBP", "LN", "WQ", "etc"],
+  "expressions": ["neutral", "happy", "surprised", "thinking", "wink"],
+  "props": ["coin_gold", "piggy_bank_clay", "notebook", "lantern"],
+  "voice": { "es": "es-MX-JorgeNeural", "zh": "zh-CN-YunxiNeural", "en": "en-US-GuyNeural" },
+  "episode": { "target_seconds": 60, "fps": 24, "resolution": [1080, 1920] }
+}

@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "clips": [
+    {
+      "motion": "saludo",
+      "duration": 4,
+      "speed": 1,
+      "camera": "general",
+      "outfit": "artesano",
+      "scene": {
+        "environment": "taller",
+        "background": null,
+        "juan": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "end": [
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "scale": 1
+        },
+        "objects": [
+          {
+            "id": "4a7b736f-246c-4c0a-ac0d-df040e129c88",
+            "kind": "perro",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "seguir"
+          },
+          {
+            "id": "9b8d2cc5-877f-4c96-bdbe-a48c24427e44",
+            "kind": "mesa",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "111deeb0-e19c-449f-a2e1-87b7337ede09",
+            "kind": "banco",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "664ad6fb-4791-4348-bf6a-c7b9f70f1d17",
+            "kind": "alcancia",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "ba8aa132-e9e4-4337-b774-7b739dbc4704",
+            "kind": "maceta",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "2a789905-777f-4db0-9325-fc4260275373",
+            "kind": "barril",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "04ec28ab-4e47-4dbf-bd57-438bfa221dd7",
+            "kind": "moneda",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "bbab9804-64fe-4582-8ee4-04eb4dd6c23a",
+            "kind": "conejo",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "8563df11-8589-4017-b7fd-7cbe52f8a55b",
+            "kind": "perro",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          },
+          {
+            "id": "17fd8484-3959-475d-9535-f91528b8ef84",
+            "kind": "pajaro",
+            "position": [
+              1.3,
+              0,
+              0.1
+            ],
+            "end": [
+              1.3,
+              0,
+              0.1
+            ],
+            "rotation": 0,
+            "scale": 1,
+            "behavior": "quieto"
+          }
+        ]
+      },
+      "title": "Juan y su compañero de taller",
+      "offset": 0,
+      "view": {
+        "position": [
+          0,
+          2.2499999999999996,
+          8.2
+        ],
+        "target": [
+          0,
+          1.35,
+          0
+        ]
+      }
+    },
+    {
+      "motion": "explicar",
+      "duration": 5,
+      "speed": 1,
+      "camera": "retrato",
+      "outfit": "artesano",
+      "scene": {
+        "environment": "taller",
+        "background": null,
+        "juan": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "end": [
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "scale": 1
+        },
+        "objects": []
+      },
+      "title": "",
+      "offset": 0,
+      "view": null
+    },
+    {
+      "motion": "despedida",
+      "duration": 3,
+      "speed": 1,
+      "camera": "general",
+      "outfit": "artesano",
+      "scene": {
+        "environment": "taller",
+        "background": null,
+        "juan": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "end": [
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "scale": 1
+        },
+        "objects": []
+      },
+      "title": "",
+      "offset": 0,
+      "view": null
+    }
+  ],
+  "stopMotion": true,
+  "name": "Una historia de Juan",
+  "format": "landscape",
+  "audio": "calida"
+}

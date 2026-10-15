@@ -1,0 +1,409 @@
+[
+  {
+    "name": "03_curiosidad",
+    "meaning": "Juan observa una pieza, duda, se acerca y comprende.",
+    "beats": [
+      [
+        1,
+        "observar",
+        {},
+        {}
+      ],
+      [
+        13,
+        "detectar",
+        {
+          "Cabeza": [
+            -5,
+            -9,
+            0
+          ]
+        },
+        {
+          "cejas": 0.008
+        }
+      ],
+      [
+        25,
+        "anticipar",
+        {
+          "Torso": [
+            -4,
+            0,
+            0
+          ],
+          "Cabeza": [
+            0,
+            -12,
+            0
+          ]
+        },
+        {}
+      ],
+      [
+        41,
+        "examinar",
+        {
+          "Torso": [
+            7,
+            -7,
+            0
+          ],
+          "Cabeza": [
+            12,
+            -13,
+            0
+          ],
+          "Brazo_L": [
+            -15,
+            20,
+            0
+          ],
+          "Codo_L": [
+            -40,
+            0,
+            0
+          ]
+        },
+        {
+          "cejas": 0.018
+        }
+      ],
+      [
+        57,
+        "sostener pensamiento",
+        {
+          "Torso": [
+            7,
+            -7,
+            0
+          ],
+          "Cabeza": [
+            12,
+            -13,
+            0
+          ],
+          "Brazo_L": [
+            -15,
+            20,
+            0
+          ],
+          "Codo_L": [
+            -40,
+            0,
+            0
+          ]
+        },
+        {
+          "cejas": 0.018
+        }
+      ],
+      [
+        69,
+        "comprender",
+        {
+          "Torso": [
+            0,
+            0,
+            0
+          ],
+          "Cabeza": [
+            -6,
+            2,
+            0
+          ],
+          "Brazo_L": [
+            -15,
+            30,
+            0
+          ],
+          "Codo_L": [
+            -55,
+            0,
+            0
+          ]
+        },
+        {
+          "cejas": 0.012,
+          "boca": 1.6
+        }
+      ],
+      [
+        81,
+        "asentir",
+        {
+          "Cabeza": [
+            9,
+            2,
+            0
+          ],
+          "Brazo_L": [
+            -15,
+            30,
+            0
+          ],
+          "Codo_L": [
+            -55,
+            0,
+            0
+          ]
+        },
+        {
+          "boca": 1.4
+        }
+      ],
+      [
+        89,
+        "resolver",
+        {
+          "Cabeza": [
+            0,
+            2,
+            0
+          ],
+          "Brazo_L": [
+            -12,
+            20,
+            0
+          ],
+          "Codo_L": [
+            -35,
+            0,
+            0
+          ]
+        },
+        {}
+      ],
+      [
+        97,
+        "fin",
+        {
+          "Cabeza": [
+            0,
+            2,
+            0
+          ],
+          "Brazo_L": [
+            -12,
+            20,
+            0
+          ],
+          "Codo_L": [
+            -35,
+            0,
+            0
+          ]
+        },
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "04_bienvenida",
+    "meaning": "Juan descubre a alguien, hace espacio y ofrece un saludo tranquilo.",
+    "beats": [
+      [
+        1,
+        "escuchar",
+        {
+          "Cabeza": [
+            0,
+            12,
+            0
+          ]
+        },
+        {}
+      ],
+      [
+        13,
+        "reconocer",
+        {
+          "Cabeza": [
+            -4,
+            0,
+            -5
+          ]
+        },
+        {
+          "cejas": 0.012
+        }
+      ],
+      [
+        25,
+        "anticipar",
+        {
+          "Brazo_R": [
+            6,
+            8,
+            0
+          ],
+          "Codo_R": [
+            -8,
+            0,
+            0
+          ]
+        },
+        {}
+      ],
+      [
+        41,
+        "abrir saludo",
+        {
+          "Brazo_R": [
+            -8,
+            -105,
+            0
+          ],
+          "Codo_R": [
+            -15,
+            -20,
+            0
+          ],
+          "Cabeza": [
+            0,
+            0,
+            -4
+          ]
+        },
+        {
+          "boca": 1.6
+        }
+      ],
+      [
+        53,
+        "saludar",
+        {
+          "Brazo_R": [
+            -8,
+            -105,
+            0
+          ],
+          "Codo_R": [
+            -15,
+            0,
+            0
+          ],
+          "Cabeza": [
+            0,
+            0,
+            -4
+          ]
+        },
+        {
+          "boca": 1.6
+        }
+      ],
+      [
+        65,
+        "saludar vuelta",
+        {
+          "Brazo_R": [
+            -8,
+            -105,
+            0
+          ],
+          "Codo_R": [
+            -15,
+            -22,
+            0
+          ],
+          "Cabeza": [
+            0,
+            0,
+            -4
+          ]
+        },
+        {
+          "boca": 1.6
+        }
+      ],
+      [
+        77,
+        "invitar",
+        {
+          "Brazo_R": [
+            -15,
+            -50,
+            0
+          ],
+          "Codo_R": [
+            -55,
+            0,
+            0
+          ],
+          "Brazo_L": [
+            -10,
+            22,
+            0
+          ],
+          "Codo_L": [
+            -30,
+            0,
+            0
+          ]
+        },
+        {
+          "boca": 1.4
+        }
+      ],
+      [
+        89,
+        "esperar respuesta",
+        {
+          "Brazo_R": [
+            -15,
+            -50,
+            0
+          ],
+          "Codo_R": [
+            -55,
+            0,
+            0
+          ],
+          "Brazo_L": [
+            -10,
+            22,
+            0
+          ],
+          "Codo_L": [
+            -30,
+            0,
+            0
+          ]
+        },
+        {
+          "boca": 1.4
+        }
+      ],
+      [
+        97,
+        "fin",
+        {
+          "Brazo_R": [
+            -15,
+            -50,
+            0
+          ],
+          "Codo_R": [
+            -55,
+            0,
+            0
+          ],
+          "Brazo_L": [
+            -10,
+            22,
+            0
+          ],
+          "Codo_L": [
+            -30,
+            0,
+            0
+          ]
+        },
+        {
+          "boca": 1.4
+        }
+      ]
+    ]
+  }
+]

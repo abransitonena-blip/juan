@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "clips": [
+    {
+      "motion": "saludo",
+      "duration": 4,
+      "speed": 1,
+      "camera": "general",
+      "outfit": "artesano"
+    },
+    {
+      "motion": "explicar",
+      "duration": 5,
+      "speed": 1,
+      "camera": "retrato",
+      "outfit": "artesano"
+    },
+    {
+      "motion": "despedida",
+      "duration": 3,
+      "speed": 1,
+      "camera": "general",
+      "outfit": "artesano"
+    }
+  ],
+  "stopMotion": true,
+  "name": "Una historia de Juan",
+  "format": "landscape",
+  "audio": "calida"
+}

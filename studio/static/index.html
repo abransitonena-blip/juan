@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudio de Juan · Texto a video</title>
+<meta name="description" content="Escribe un texto y Juan lo dice: voz, boca sincronizada, fondos y video descargable.">
+<link rel="stylesheet" href="/style.css">
+<script type="importmap">{"imports":{"three":"/web/vendor/three.module.js","three/addons/":"/web/vendor/"}}</script>
+</head>
+<body>
+<header class="top">
+  <strong class="brand"><span class="mono">J.</span> Estudio de Juan</strong>
+  <span class="sub">Texto → voz → video, todo local y gratis</span>
+  <a class="link" href="/blocks.html">Editor de bloques: paisajes, animales y personas →</a>
+</header>
+
+<main class="layout">
+  <section class="controls" aria-label="Controles">
+    <div class="card">
+      <h2>1 · Lo que dice Juan</h2>
+      <label for="text">Texto (máx. 3000 caracteres)</label>
+      <textarea id="text" rows="8" maxlength="3000"></textarea>
+      <div class="row">
+        <label class="grow">Voz
+          <select id="voice"></select>
+        </label>
+        <label>Velocidad
+          <select id="rate">
+            <option value="-15">Lenta</option>
+            <option value="0" selected>Normal</option>
+            <option value="12">Rápida</option>
+          </select>
+        </label>
+      </div>
+      <button id="gen-voice" class="btn dark">▷ Generar voz</button>
+      <p id="voice-info" class="note" role="status">Aún no hay voz generada.</p>
+      <audio id="audio" controls hidden></audio>
+    </div>
+
+    <div class="card">
+      <h2>2 · Cómo se ve</h2>
+      <div class="row">
+        <label class="grow">Atuendo
+          <select id="outfit">
+            <option value="artesano">Artesano</option>
+            <option value="fiesta">Día de fiesta</option>
+            <option value="madera">Solo madera</option>
+          </select>
+        </label>
+        <label class="grow">Formato
+          <select id="format">
+            <option value="portrait">Vertical 720×1280</option>
+            <option value="landscape">Horizontal 1280×720</option>
+            <option value="square">Cuadrado 720×720</option>
+            <option value="tiktok">TikTok 1080×1920</option>
+            <option value="reels">Instagram Reels 1080×1920</option>
+            <option value="shorts">YouTube Shorts 1080×1920</option>
+            <option value="youtube">YouTube 1920×1080</option>
+            <option value="instagram">Instagram feed 1080×1350 (4:5)</option>
+          </select>
+        </label>
+      </div>
+      <div class="row">
+        <label class="grow">Fondo
+          <select id="background">
+            <option value="taller">Taller de madera</option>
+            <option value="plaza">Plaza de día</option>
+            <option value="noche">Noche con luna</option>
+            <option value="fiesta">Papel picado</option>
+            <option value="crema">Crema liso</option>
+            <option value="chroma">Verde (chroma key)</option>
+            <option value="custom">Mi imagen…</option>
+          </select>
+        </label>
+        <label class="grow">Encuadre
+          <select id="camera">
+            <option value="alternar">Alternar por frase</option>
+            <option value="general">Cuerpo completo</option>
+            <option value="retrato">Retrato</option>
+          </select>
+        </label>
+      </div>
+      <label id="bg-file-label" hidden>Imagen de fondo <input id="bg-file" type="file" accept="image/*"></label>
+      <div class="row">
+        <label class="check"><input id="hat" type="checkbox" checked> Sombrero</label>
+        <label class="check"><input id="captions" type="checkbox" checked> Subtítulos</label>
+        <label class="check"><input id="coin" type="checkbox"> Moneda</label>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3 · Crear el video</h2>
+      <button id="record" class="btn rec">● Generar video completo</button>
+      <button id="preview" class="btn">▶ Ver sin grabar</button>
+      <button id="stop" class="btn" hidden>■ Detener y guardar</button>
+      <progress id="progress" max="1" value="0" aria-label="Progreso"></progress>
+      <p id="status" class="note" role="status" aria-live="polite">Escribe un texto y pulsa «Generar voz».</p>
+      <p class="note">Se graba en tiempo real a 24 fps: un video de 40 s tarda 40 s. Mantén esta pestaña visible mientras graba.</p>
+    </div>
+
+    <details class="card">
+      <summary><h2 class="inline">Vocabulario de la boca</h2></summary>
+      <p class="note">Cada palabra que Juan dice se aprende sola con un patrón de formas de boca. Si una palabra se ve mal, corrígela: <code>A E I O U</code> (vocales), <code>M</code> (labios cerrados: m, b, p, v), <code>F</code>, <code>L</code>, <code>S</code>, <code>R</code>, <code>K</code>, <code>N</code>. Tus correcciones se guardan en <code>studio/vocab.json</code> y las usan todos los videos.</p>
+      <p id="vocab-report" class="note" role="status"></p>
+      <div class="row"><label class="grow">Palabra <input id="vw" type="text" maxlength="40"></label><label class="grow">Patrón <input id="vp" type="text" maxlength="40" placeholder="O L A"></label></div>
+      <button id="vocab-see" class="btn">▶ Ver la boca</button>
+      <button id="vocab-save" class="btn dark">Guardar corrección</button>
+      <button id="vocab-reset" class="btn">Volver al automático</button>
+      <ul id="vocab-flags" class="note"></ul>
+    </details>
+
+    <details class="card">
+      <summary><h2 class="inline">Cola rápida (sin pestaña, más rápido que tiempo real)</h2></summary>
+      <p class="note">Una línea por video (<code>voz | atuendo | fondo | texto</code>) o un JSON con una lista de trabajos (<code>text, voice, outfit, background, format, camera, captions, hat, coin, rate</code>). Se renderiza en un Chrome oculto y los MP4 quedan en <code>studio/output/</code>. No necesita que la pestaña esté visible.</p>
+      <textarea id="queue" rows="5" placeholder="jorge | artesano | taller | Hola, soy Juan.&#10;dalia | fiesta | plaza | Una moneda al día."></textarea>
+      <div class="row"><label>Procesos en paralelo <select id="queue-workers"><option selected>1</option><option>2</option><option>3</option><option>4</option></select></label></div>
+      <button id="run-queue" class="btn dark">▶ Enviar a la cola</button>
+      <p id="queue-status" class="note" role="status"></p>
+      <ul id="queue-list" class="note"></ul>
+    </details>
+
+    <details class="card">
+      <summary><h2 class="inline">Lotes (muchos videos seguidos)</h2></summary>
+      <p class="note">Una línea por video: <code>voz | atuendo | fondo | texto</code>. Voz: jorge, dalia, alvaro, tomas, yunxi, xiaoxiao, guy. Atuendo: artesano, fiesta, madera. Fondo: taller, plaza, noche, fiesta, crema, chroma.</p>
+      <textarea id="batch" rows="5" placeholder="jorge | artesano | taller | Hola, soy Juan y hoy te cuento algo curioso.&#10;dalia | fiesta | plaza | Ahorrar es un hábito: una moneda al día."></textarea>
+      <button id="run-batch" class="btn dark">▶ Ejecutar lote y descargar cada video</button>
+      <p id="batch-status" class="note" role="status"></p>
+    </details>
+  </section>
+
+  <section class="stage" aria-label="Vista previa">
+    <div class="frame"><canvas id="out" aria-label="Vista previa de Juan"></canvas></div>
+    <div id="result" hidden>
+      <video id="result-video" controls playsinline></video>
+      <a id="download" class="btn dark" download>↓ Descargar video</a>
+    </div>
+  </section>
+</main>
+<script type="module" src="/studio.js"></script>
+<script type="module" src="/production-editor.js"></script>
+</body>
+</html>

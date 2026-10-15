@@ -1,0 +1,6 @@
+output/
+__pycache__/
+*.blend1
+studio/cache/
+studio/data/*.sqlite3*
+studio/data/media/

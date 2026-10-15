@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "outfit": "fiesta",
+  "lines": [
+    { "lang": "es", "text": "¡Hola! Soy Juan, y hoy te cuento algo que quizá no sabías." },
+    { "lang": "es", "text": "Los chinos inventaron el papel moneda hace más de mil años." }
+  ]
+}
